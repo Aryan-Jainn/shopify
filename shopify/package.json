@@ -1,0 +1,26 @@
+{
+  "name": "shopifyplugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^8.0.8",
+    "@shopify/koa-shopify-auth": "^5.0.3",
+    "dotenv": "^16.3.1",
+    "isomorphic-fetch": "^3.0.0",
+    "koa": "^2.14.2",
+    "koa-router": "^12.0.1",
+    "next": "^14.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
